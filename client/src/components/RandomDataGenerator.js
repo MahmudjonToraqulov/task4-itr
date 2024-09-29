@@ -14,7 +14,7 @@ const RandomDataGenerator = () => {
     const loadData = async (pageNum) => {
         try {
             setIsLoading(true);
-            const response = await axios.post('http://localhost:3000/generate', {
+            const response = await axios.post('https://task5-itr.onrender.com/generate', {
                 region,
                 errors,
                 seed,
@@ -31,7 +31,7 @@ const RandomDataGenerator = () => {
 
     const generateRandomSeed = async () => {
         try {
-            const response = await axios.get('http://localhost:3000/random-seed');
+            const response = await axios.get('https://task5-itr.onrender.com/random-seed');
             setSeed(response.data.seed);
         } catch (error) {
             console.error('Error generating random seed:', error);
