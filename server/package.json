@@ -1,0 +1,24 @@
+{
+  "name": "fake-data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "faker-js": "^1.0.0",
+    "libphonenumber-js": "^1.11.9",
+    "random-seed": "^0.3.0",
+    "seedrandom": "^3.0.5"
+  }
+}
